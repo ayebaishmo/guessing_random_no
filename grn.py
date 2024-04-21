@@ -18,7 +18,6 @@ class ran_no:
             return f"{self.k} and the right number {self.first} You guessed right"
         else:
             return f"{self.k} and the right number {self.first} You didn't get it right"
-    
 if __name__ == '__main__':
     ran_no1 = ran_no(1)
     print(ran_no1.r1_10())
